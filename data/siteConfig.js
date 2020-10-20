@@ -1,111 +1,99 @@
 module.exports = {
-  siteTitle: 'Hi! I\'m Francisco!',
+  siteTitle: "Hi! I'm Colton!",
   siteDescription: `Create your online curriculum in just a few minutes with this starter`,
-  keyWords: ['gatsbyjs', 'react', 'curriculum'],
-  authorName: 'Francisco Santos',
-  twitterUsername: '_franciscodf',
-  githubUsername: 'santosfrancisco',
-  authorAvatar: '/images/avatar.jpeg',
-  authorDescription: `Developer, passionate about what I do. Always interested in how the sites were made, I started to study HTML by hobby. <br />
-    In 2012 I started working as a support technician and I approached the developers.
-    In 2015, I started to study C # and started to contribute with the team giving maintenance in an application in C # and .NET. <br />
-    I currently work as a frontend developer and mainly work with <strong>Javascript, NodeJS e React.</strong>`,
+  keyWords: ['gatsbyjs', 'react', 'python'],
+  authorName: 'Colton Smith',
+  githubUsername: 'Coltonls24',
+  authorAvatar: '/images/headshot2.jpeg',
+  authorDescription: `I'm a software engineer with a broad range of experience. I have worked with a variety of different front-end frameworks such as Angular, React, and Vue and am always looking to learn something new. In my free time I enjoy playing video games with my friends and reading.`,
   skills: [
     {
-      name: 'HTML',
-      level: 70
+      name: 'JavaScript',
+      level: 80,
     },
     {
-      name: 'CSS',
-      level: 60
-    },
-    {
-      name: 'Javascript',
-      level: 50
-    },
-    {
-      name: 'NodeJs',
-      level: 40
+      name: 'TypeScript',
+      level: 75,
     },
     {
       name: 'React',
-      level: 60
+      level: 60,
     },
     {
       name: 'Git',
-      level: 70
+      level: 70,
+    },
+    {
+      name: 'C#',
+      level: 60,
+    },
+    {
+      name: 'Python',
+      level: 70,
     },
     /* more skills here */
   ],
   jobs: [
     /* more jobs here */
     {
-      company: "Gympass",
+      company: 'Buildertrend',
       begin: {
-        month: 'sep',
-        year: '2019'
+        month: 'July',
+        year: '2019',
       },
-      duration: null,
-      occupation: "Frontend developer",
-      description: "I am part of the Corporate team, responsible for the development and maintenance of the employee management platform, giving more and more autonomy to partner companies."
-  
-    },  {
-      company: "Lendico",
+      duration: '1 yr',
+      occupation: 'Application Developer I',
+      description:
+        'Developed and maintained full-stack web application used for construction project management. Developed features to allow users to distribute custom surveys using .NET, TypeScript, and the React Framework. I also identified client-facing issues and their cause in a timely manner',
+    },
+    {
+      company: 'Herzog Technology Inc.',
       begin: {
-        month: 'apr',
-        year: '2018'
+        month: 'May',
+        year: '2018',
       },
-      duration: null,
-      occupation: "Frontend developer",
-      description: "I integrate the Frontend team responsible for developing and maintaining the online lending platform."
-  
-    }, {
-      company: "Anapro",
+      duration: '3 mos',
+      occupation: 'Software Engineering Intern',
+      description:
+        'Developed web application for the transportation industry using Python and the Angular Framework. I was responsible for implementing the single sign-on functionality using Keycloak as well as setting up the deployment with Docker.',
+    },
+    {
+      company: 'Ames Laboratory',
       begin: {
-        month: 'dec',
-        year: '2016'
+        month: 'July',
+        year: '2017',
       },
-      duration: '1 yr e 5 mos',
-      occupation: "Fullstack developer",
-      description: "Development and maintenance, corrective and preventive, of web applications for the real estate market."
-    }, {
-      company: "Anapro",
-      begin: {
-        month: 'set',
-        year: '2012'
-      },
-      duration: '4 yrs e 3 mos',
-      occupation: "Support Technician",
-      description: "Responsible for the implementation and parameterization of the system, training and customer support. Acting also in person in real estate launches guaranteeing the success and good use of the tool."
-  
+      duration: '1 yr',
+      occupation: 'Software Engineering Intern',
+      description:
+        'Expanded the automated testing of a command line tool used to dynamically convert between different types of Cyber Threat Information utilizing Python. I also added additional functionality to convert between different types.',
     },
   ],
   portifolio: [
     {
-      image: "/images/gatsby-starter-cv.png",
-      description: "Gatsby starter CV template",
-      url: "https://www.gatsbyjs.org/starters/santosfrancisco/gatsby-starter-cv/"
+      image: '/images/Arceus.png',
+      description: 'Arceus Bot aka. Discord chat bot',
+      url: 'https://github.com/Coltonls24/ArceusBot',
     },
     {
-      image: "/images/awesome-grid.png",
-      description: "Responsive grid for ReactJS",
-      url: "https://github.com/santosfrancisco/react-awesome-styled-grid"
+      image: '/images/FlexT.png',
+      description: 'Flexible Transform',
+      url: 'https://github.com/anl-cyberscience/FlexTransform',
     },
     /* more portifolio items here */
   ],
   social: {
-    twitter: "https://twitter.com/_franciscodf",
-    linkedin: "https://www.linkedin.com/in/santos-francisco",
-    github: "https://github.com/santosfrancisco",
-    email: "yoshi.df@gmail.com"
+    linkedin: 'https://www.linkedin.com/in/colton-smith-9a3b27127',
+    github: 'https://github.com/Coltonls24',
+    email: 'coltonls024@gmail.com',
   },
-  siteUrl: 'https://santosfrancisco.github.io/gatsbystarter-cv',
+  siteUrl: 'https://coltonsmith.github.io/',
   pathPrefix: '/gatsby-starter-cv', // Note: it must *not* have a trailing slash.
   siteCover: '/images/cover.jpeg',
   googleAnalyticsId: 'UA-000000000-1',
   background_color: '#ffffff',
   theme_color: '#25303B',
-  fontColor: "#000000cc",
+  fontColor: '#000000cc',
   enableDarkmode: true, // If true, enables dark mode switch
   display: 'minimal-ui',
   icon: 'src/assets/gatsby-icon.png',
@@ -117,6 +105,6 @@ module.exports = {
     {
       label: 'Portifolio',
       url: '/portifolio',
-    }
-  ]
+    },
+  ],
 }
